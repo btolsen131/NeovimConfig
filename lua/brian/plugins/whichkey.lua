@@ -49,7 +49,10 @@ function M.config()
     },
 
  -- enter git stuff here 
-
+    g = {
+      name = "git",
+      g = {'<cmd>:LazyGit<cr>', "LazyGit"},
+    },
     l = {
       name = "LSP",
       a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
