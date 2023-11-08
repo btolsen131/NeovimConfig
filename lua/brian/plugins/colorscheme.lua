@@ -1,7 +1,7 @@
 return {
-	"bluz71/vim-nightfly-guicolors",
+	"shaunsingh/nord.nvim",
 	priority = 1000,
 	config = function()
-		vim.cmd([[colorscheme nightfly]])
-	end,	
+		vim.cmd([[colorscheme nord]])
+	end,
 }
