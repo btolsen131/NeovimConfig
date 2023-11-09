@@ -35,3 +35,9 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 
+
+-- easier movement between buffers
+keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move left buffer"})
+keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move down buffer"})
+keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move up buffer"})
+keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move right buffer"})
