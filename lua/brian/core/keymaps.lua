@@ -41,3 +41,6 @@ keymap.set("n", "<C-h>", "<C-w>h", { desc = "Move left buffer"})
 keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move down buffer"})
 keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move up buffer"})
 keymap.set("n", "<C-l>", "<C-w>l", { desc = "Move right buffer"})
+
+--Terminal mode key maps
+keymap.set("t", "<ESC>", [[<C-\><C-n>]], {noremap = true})

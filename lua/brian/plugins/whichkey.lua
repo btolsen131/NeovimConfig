@@ -96,8 +96,10 @@ function M.config()
     },
 
     T = {
-      name = "Treesitter",
-      i = { ":TSConfigInfo<cr>", "Info" },
+      name = "Terminal",
+      b = { ":ToggleTerm<cr>", "Bottom Terminal" },
+      f = { ":ToggleTerm direction=float<cr>", "Floating Terminal"},
+      x = { "<C-\\><C-n><C-w>1", desc = "Hide Terminal"},
     },
   }
 
