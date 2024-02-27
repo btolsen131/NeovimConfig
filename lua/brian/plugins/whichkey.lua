@@ -50,8 +50,9 @@ function M.config()
 
  -- enter git stuff here 
     g = {
-      name = "git",
+      name = "lazy",
       g = {'<cmd>:LazyGit<cr>', "LazyGit"},
+      d = {'<cmd>:LazyDocker<cr>', "LasyDocker"}
     },
     l = {
       name = "LSP",
